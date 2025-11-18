@@ -3,9 +3,11 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
-from nltk.stem.porter import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+nltk.download('punkt_tab')
+from nltk.tokenize import word_tokenize
 
-ps = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
 
 
 def transform_text(text):
@@ -28,7 +30,7 @@ def transform_text(text):
     y.clear()
 
     for i in text:
-        y.append(ps.stem(i))
+        y.append(lemmatizer.lemmatize(i))
 
     return " ".join(y)
 
