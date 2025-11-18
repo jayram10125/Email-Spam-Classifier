@@ -40,11 +40,12 @@ Contains **5,572 SMS messages** labeled as:
 ### **1️⃣ Preprocessing**
 - Lowercase  
 - Tokenization
+- Removing special characters  
+- Removing stopwords  
 
 
 ### Demo
 
 <img width="1325" height="782" alt="image" src="https://github.com/user-attachments/assets/110510ce-a6ef-4c40-b782-6e59315536b1" />
 
-- Removing special characters  
-- Removing stopwords  
+
