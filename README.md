@@ -45,7 +45,8 @@ Contains **5,572 SMS messages** labeled as:
 
 
 ### Demo
+Deployed OnStreamlit : https://email-spam-classifier-jay.streamlit.app/
 
-<img width="1325" height="782" alt="image" src="https://github.com/user-attachments/assets/110510ce-a6ef-4c40-b782-6e59315536b1" />
+<img width="1044" height="504" alt="image" src="https://github.com/user-attachments/assets/0860406d-0091-4928-82e1-5ea1877712d7" />
 
 
