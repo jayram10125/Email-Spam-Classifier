@@ -4,10 +4,8 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem import WordNetLemmatizer
-nltk.download('punkt_tab')
-from nltk.tokenize import word_tokenize
 
-lemmatizer = WordNetLemmatizer()
+Lemmatizer = WordNetLemmatizer()
 
 
 def transform_text(text):
@@ -30,7 +28,7 @@ def transform_text(text):
     y.clear()
 
     for i in text:
-        y.append(lemmatizer.lemmatize(i))
+        y.append(Lemmatizer.lemmatize(i))
 
     return " ".join(y)
 
